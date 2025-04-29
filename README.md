@@ -1,4 +1,4 @@
-# Tariffs
+e# Tariffs
 https://dataweb.usitc.gov/tariff/annual
 
 # How to start
@@ -21,3 +21,7 @@ python3 server.py
 ```
 
 Go to `localhost:5000`
+
+
+
+![Screenshot 2025-04-29 020132](https://github.com/user-attachments/assets/3f0f8c9b-617c-4981-bd5a-fe9711349e83)
