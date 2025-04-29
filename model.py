@@ -60,6 +60,7 @@ y = df[target]
 # Split data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
+
 # Standardize the numeric features (using StandardScaler)
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train[['mfn_ad_val_rate', 'mfn_other_rate']])
@@ -76,7 +77,6 @@ X_test_final = pd.concat([pd.DataFrame(X_test_scaled), pd.DataFrame(X_test_encod
 # Train a Linear Regression model
 model = LinearRegression()
 model.fit(X_train_final, y_train)
-
 # Make predictions
 y_pred = model.predict(X_test_final)
 
@@ -125,4 +125,4 @@ plt.scatter(y_test, y_pred)
 plt.xlabel('Actual Values')
 plt.ylabel('Predicted Values')
 plt.title('Actual vs Predicted MFN Specific Rate')
-plt.show()
+plt.savefig('./templates/graph.png')

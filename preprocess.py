@@ -41,8 +41,11 @@ classified_df = df.dropna(subset=['class'])
 # Save to new CSV file
 classified_df.to_csv('classified_tariff_data.csv', index=False)
 
+original_rows_len = len(df)
+classified_df_len = len(classified_df)
+
 # Print summary
-print(f"Original rows: {len(df)}")
-print(f"Classified rows: {len(classified_df)}")
+print(f"Original rows: {original_rows_len}")
+print(f"Classified rows: {classified_df_len}")
 print("Classification counts:")
 print(classified_df['class'].value_counts())
