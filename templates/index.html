@@ -24,6 +24,54 @@
         img {
             width: 50%;
         }
+
+        
+    form {
+        background-color: #ffffff;
+        padding: 30px 40px;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 500px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 600;
+        color: #333333;
+    }
+
+    select,
+    input[type="number"],
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px 12px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+
+    input[type="submit"] {
+        background-color: #4f46e5;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #3730a3;
+    }
+
+    select:focus,
+    input:focus {
+        border-color: #4f46e5;
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+    }
     </style>
 </head>
 
@@ -39,8 +87,6 @@
                 <li>{{i}}</li>
             {% endfor %}
         </h5>
-        <h1>Test data plot</h2>
-        <img src="./plot_img">
         <h1>Predict tarrif rate</h1>
         <form action="/submit" method="post">
             <label for="class_name">Class Name:</label>
