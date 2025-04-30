@@ -293,6 +293,6 @@ poetry.toml
 pyrightconfig.json
 
 data/
-*.csv
+
 # End of https://www.toptal.com/developers/gitignore/api/python,macos,flask
 
