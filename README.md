@@ -29,7 +29,8 @@ python3 server.py
 
 Go to `localhost:5000`
 
-![Screenshot 2025-04-29 020132](https://github.com/user-attachments/assets/3f0f8c9b-617c-4981-bd5a-fe9711349e83)
+<img width="517" alt="Screenshot 2025-04-30 at 1 33 41 pm" src="https://github.com/user-attachments/assets/0524af17-b800-41f9-bc4b-e0e9fa87e780" />
+
 # Code Structure
 daksh put diagram here
 
