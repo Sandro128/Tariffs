@@ -32,7 +32,8 @@ Go to `localhost:5000`
 <img width="517" alt="Screenshot 2025-04-30 at 1 33 41 pm" src="https://github.com/user-attachments/assets/0524af17-b800-41f9-bc4b-e0e9fa87e780" />
 
 # Code Structure
-daksh put diagram here
+<img width="795" alt="Screenshot 2025-04-30 at 1 39 23 pm" src="https://github.com/user-attachments/assets/8ed52182-067f-404d-8a02-de3531bd2867" />
+
 
 # Functionalities and Test Results
 Functionalities
